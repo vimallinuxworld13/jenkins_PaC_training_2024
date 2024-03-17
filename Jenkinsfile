@@ -23,6 +23,10 @@ pipeline {
                 echo 'i m Test'
             }
         }
+        stage('QA') {
+            steps {
+                echo 'i m QAT'
+            }
         stage('Deploy') {
             steps {
                 echo 'i m Deploy'
